@@ -1,6 +1,6 @@
 public class Arbolbinario {
 
-    // --- MÉTODO PARA IMPRIMIR VISUALMENTE ---
+   
     static void imprimirArbol(nodo Nodo, int nivel) {
         if (Nodo != null) {
             imprimirArbol(Nodo.derecha, nivel + 1);
@@ -12,7 +12,7 @@ public class Arbolbinario {
         }
     }
 
-    // --- RECORRIDOS  ---
+    //  RECORRIDOS  
     static void inorden(nodo Nodo) {
         if (Nodo != null) {
             inorden(Nodo.izquierdo);
